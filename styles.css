@@ -1,0 +1,33 @@
+.fontawesome {
+  font-size: 1.15rem;
+  color: black;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333333;
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+
+  /* Positioning */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
